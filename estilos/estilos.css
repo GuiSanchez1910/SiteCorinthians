@@ -1,0 +1,67 @@
+p {
+    font-size: larger;
+}
+
+ul {
+    font-size: larger;
+}
+
+a {
+    color:goldenrod;
+}
+
+h2 {
+    color:darkred;
+}
+
+h2.altaneiro {
+    color:red;
+}
+
+h2.black {
+    color:black
+}
+
+table {
+    width: 45%;
+}
+
+table, th, tr, td {
+    border: 1px solid black
+}
+
+thead{
+    color: #cd0000;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid #333;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+  
+blockquote p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+  
+blockquote footer {
+    font-style: normal;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+label {
+    width: 300px;
+    height: 150px;
+}
+
+div{
+    color: #cd0000;
+}
+
+ol{
+    font-size:larger;
+}
