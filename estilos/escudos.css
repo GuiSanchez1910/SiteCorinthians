@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+p {
+    font-size: larger;
+}
+
+a {
+    color:goldenrod;
+}
+
+h2 {
+    color:darkred;
+}
+
+h2.altaneiro {
+    color:red;
+}
+
+h2.black {
+    color:black
+}
+
+.titulo{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 15px;
+}
+
+.cabecalho{
+    text-align:center;
+    margin: 10px;
+}
