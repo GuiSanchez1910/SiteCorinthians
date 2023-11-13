@@ -1,12 +1,21 @@
 <!doctype html>
 <html>
 <head>
+    <style>
+      .main{
+        margin: 10px;
+      }
+
+    .cabecalho{
+      text-align:center;
+    }
+    </style>
     <meta charset="UTF-8"/>
     <title>VAI CORINTHIANS</title>
     <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
 <body>
-    <div class = "cabecalho">
+    <div class = cabecalho>
         <header>
             <h1>SPORT CLUB CORINTHIANS PAULISTA</h1>
             <img src="../Imagens/altaneira.jpeg" title= "curinthia" alt="nao carregou" width="500"/>            
@@ -30,14 +39,17 @@
         <article>
             <h2 class="black" style="text-align:center">CRIAÇÃO DO TIMÃO</h2>
             <hr>
-            <h2>O TIME DO POVO</h2>
-            <img src="../Imagens/lampiao.jpg" title="timao" alt="nao carregou" width="350">
-            <p>Às 20h30 do dia 1º de setembro, à luz de um lampião, na esquina das ruas José Paulino e Cônego Martins, no bairro do Bom Retiro, o grupo de operários formado por Anselmo Corrêa, Antônio Pereira, Carlos Silva, Joaquim Ambrósio, Raphael Perrone e mais 8 sócios, fundaram o Sport Club Corinthians Paulista, o nome foi inspirado no time inglês, Corinthian-Casuals Football Club, que nessa ocasião estava fazendo uma expedição em São Paulo.</p>
-            <hr>
-            <h2 style="text-align: center;" >Linha do Tempo</h2>
-        <div class="imagen">
-            <img src="../Imagens/criação.jpeg" title="criacao" alt="nao carregou" width="350"> 
-        </div>
+            <h2 style="text-align: center;">O TIME DO POVO</h2>
+          <div style="display:flex";>
+            <img src="../Imagens/lampiao.jpg" title="timao" alt="nao carregou" width="350";>
+            <p class="socorro">Às 20h30 do dia 1º de setembro, à luz de um lampião, na esquina das ruas José Paulino e Cônego Martins, no bairro do Bom Retiro, o grupo de operários formado por Anselmo Corrêa, Antônio Pereira, Carlos Silva, Joaquim Ambrósio, Raphael Perrone e mais 8 sócios, fundaram o Sport Club Corinthians Paulista, o nome foi inspirado no time inglês, Corinthian-Casuals Football Club, que nessa ocasião estava fazendo uma expedição em São Paulo.</p>
+          </div>
+          <br>
+          <hr>
+          <div class="meio">
+            <h2 style="margin: 20px;" style="text-align: center;">LINHA DO TEMPO</h2>
+            <img style="text-align: center;" src="../Imagens/criação.jpeg" title="criacao" alt="nao carregou" width="350"> 
+          </div>
         </article>
         <!-- <article>   
             <ul>
@@ -59,7 +71,7 @@
         </article> -->
     </section>
     
-
+    <article class="timeline">
     <div class="container">
         <div class="timeline">
           <ul>
@@ -150,6 +162,7 @@
           </ul>
         </div>
       </div>
+    </article>
 <hr>
     </main>
     <footer>Copyright © 2013-2023 Altaneiro. Todos os direitos reservados.</footer>

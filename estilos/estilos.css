@@ -1,10 +1,6 @@
 /* Manipulação de tags */
 
-*{
-  margin: 0px;
-  padding: 0px;
-  
-}
+
 
 html {
   font-family: "Montserrat";
@@ -31,7 +27,9 @@ h2.altaneiro {
 }
 
 h2.black {
-    color:black
+    color:black;
+    text-align: center;
+    
 }
 
 table {
@@ -92,10 +90,8 @@ ol{
     margin: 10px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 * {
-  margin: 0;
-  padding: 0;
+  margin: 20;
   box-sizing: border-box;
 }
 .container {
@@ -197,5 +193,31 @@ ol{
     background-color: black;
   }
 
+  .cor{
+    color:aliceblue;
+}
+
+.socorro{
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.meio{
+  text-align: center;
+  margin:10px;
+}
+
+.main{
+  margin: 10px;
+}
+
+.cabecalho{
+text-align:center;
+}
+
+.certo{
+  margin:auto;
+  margin-left: 100px;
+}
   
 }
