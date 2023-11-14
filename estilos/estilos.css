@@ -113,6 +113,8 @@ ol{
   align-items: center;
   justify-content: center;
   padding: 100px 0;
+  border: solid gold 4px;
+  border-radius: 15px;
 }
 
 .contato{
