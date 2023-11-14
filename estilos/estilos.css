@@ -1,6 +1,10 @@
 /* Manipulação de tags */
 
 
+* {
+  margin: 20;
+  box-sizing: border-box;
+}
 
 html {
   font-family: "Montserrat";
@@ -102,10 +106,6 @@ ol{
     margin: 10px;
 }
 
-* {
-  margin: 20;
-  box-sizing: border-box;
-}
 .container {
   min-height: 100vh;
   width: 100%;
@@ -113,6 +113,13 @@ ol{
   align-items: center;
   justify-content: center;
   padding: 100px 0;
+}
+
+.contato{
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 15px;
+  padding: 10px
 }
 .timeline {
   width: 80%;

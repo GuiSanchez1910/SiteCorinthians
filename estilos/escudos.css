@@ -23,8 +23,9 @@ h2.altaneiro {
     color:red;
 }
 
-h2.black {
-    color:black
+.black {
+    color:black;
+    margin: 20px;
 }
 
 .titulo{
@@ -36,6 +37,8 @@ h2.black {
     justify-content: space-between;
     margin: 10px;
     padding: 15px;
+    border: solid black 2px;
+    border-radius:  15px;
 }
 
 .cabecalho{
