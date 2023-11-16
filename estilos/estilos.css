@@ -240,10 +240,44 @@ text-align:center;
   margin:auto;
   margin-left: 100px;
 }
+}
 
-.table-container {
+.table-container{
   margin: 20px auto;
   width: 80%;
   text-align: center;
 }
+
+.introhino1{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.hino1{
+  border: 5px solid gold;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 700px;
+  margin-right: 700px;
+  background-color: rgb(7, 59, 77);
+  color: white;
+  flex-direction: column;
+}
+
+.introhino2{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.hino2{
+  border: 5px solid gold;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 700px;
+  margin-right: 700px;
+  background-color: rgb(7, 59, 77);
+  color: white;
+  flex-direction: column;
 }
