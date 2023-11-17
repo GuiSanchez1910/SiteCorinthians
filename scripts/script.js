@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     var audio = document.getElementById('audioPlayer2');
-    var playButton = document.getElementById('playButton2');
+    var playButton2 = document.getElementById('playButton2');
 
     playButton2.addEventListener('click', function () {
         if (audio.paused) {
