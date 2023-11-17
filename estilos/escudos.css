@@ -7,6 +7,10 @@ html {
     font-family: "Montserrat";
 }
 
+a:hover{
+    color:red;
+}
+
 p {
     font-size: larger;
 }

@@ -55,6 +55,18 @@ h2.black {
   display: flex;
 }
 
+.mosq{
+  display: flex;
+}
+
+.mosqueteiro{
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
