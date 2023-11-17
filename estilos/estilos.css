@@ -9,6 +9,14 @@ a:hover{
   box-sizing: border-box;
 }
 
+.main{
+  margin: 10px;
+}
+
+.cabecalho{
+text-align:center;
+}
+
 html {
   font-family: "Montserrat";
 }
@@ -37,6 +45,14 @@ h2.black {
     color:black;
     text-align: center;
 
+}
+
+.timedopovo{
+  text-align: center;
+}
+
+.flexIndex{
+  display: flex;
 }
 
 table {
