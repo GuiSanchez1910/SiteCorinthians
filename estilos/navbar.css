@@ -1,0 +1,81 @@
+
+       
+       @font-face {
+        font-family: 'Louco';
+        src: url('../fontes/Louco.ttf') format('truetype');
+    }
+    
+    h1 {
+        font-family: 'Louco', louco;
+    }
+       body {
+            margin: 0;
+        }
+
+        .cabecalho {
+            background-color: #ffffff; 
+            padding: 10px;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1, h2 {
+            margin: 0;
+            color: rgb(0, 0, 0); 
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #444; 
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white; 
+            padding: 10px;
+            transition: all 0.3s ease; 
+        }
+
+        nav a:hover {
+            background-color: #555; 
+            color: rgb(222, 4, 4); 
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 1px solid #333;
+        }
+
+        h2.black {
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
