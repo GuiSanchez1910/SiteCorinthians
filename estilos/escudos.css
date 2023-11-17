@@ -1,6 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 20;
+    box-sizing: border-box;
 }
 
 html {
@@ -25,6 +25,7 @@ h2 {
 
 h2.altaneiro {
     color:red;
+    margin: 19.92px;
 }
 
 .black {
