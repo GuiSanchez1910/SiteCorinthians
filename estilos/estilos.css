@@ -1,5 +1,8 @@
 /* Manipulação de tags */
 
+a:hover{
+  color:red;
+}
 
 * {
   margin: 20;
